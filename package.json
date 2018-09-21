@@ -1,0 +1,27 @@
+{
+  "name": "auth-server",
+  "version": "1.0.0",
+  "description": "server side of the authentication app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miklehti/auth-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miklehti/auth-server/issues"
+  },
+  "homepage": "https://github.com/miklehti/auth-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.16",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4"
+  }
+}
